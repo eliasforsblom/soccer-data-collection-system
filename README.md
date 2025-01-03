@@ -9,7 +9,14 @@ A complete system for collecting and processing soccer data from TV broadcasts u
 │   ├── data_processing/    # Scripts for handling video data
 │   ├── models/             # Scripts and models for deep learning
 │   └── gui/                # Code for the GUI
-├── data/                   # Example datasets (not pushed to GitHub)
+├── data/
+    ├── train/
+│     ├── images/
+│     └── labels/
+    ├── val/
+│     ├── images/
+│     └── labels/
+
 ├── tests/                  # Test scripts for different modules
 ├── .gitignore
 ├── LICENSE
